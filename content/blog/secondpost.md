@@ -1,16 +1,14 @@
 ---
-title: This is my second post with a much longer title.
-description: This is a post on My Blog about leveraging agile frameworks.
-date: 2018-07-04
-tags: number 2
+title: Toinen artikkeli
+description: Jamstackki toimii mainiosta
+date: 2026-09-21T06:36:00.246Z
+tags:
+    - eleventy
 ---
-Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
+Sain aivoni lopulta hahmottamaan paremmin tämän Githubista buildilla julkaisun. Olenkin kokeillut julkaisua eri repositoreista, hyvinhän tuo sujuu. Harmittaa vain, että tuon SSH-tavan sössin deletoimalla repon, johon sen olin kytkenyt. Kun yritin kytkeä sen toiseen repoon, niin sain ilmoituksen, että se on jo käytössä (mutta siis deletoitu). Maksuttomalla Github-tilillä ei ole supporttia moiseen. Olkoon.
 
-## Section Header
+## On muitakin aloituspaketteja
 
-<a href="/blog/firstpost.md">First post</a>
-<a href="blog/thirdpost.md">Third post</a>
+Kokeilin parin päivän ajan paikallisesti Elvaa. Se on siisti! [Elva, multilingual, clean, green 11ty starter theme](https://github.com/scottsweb/elva). Siinäkin sai reverse engineerinkiä harrastaa kunnolla. Tykkäsin, mutta buildissa julkaistessa tuli jotain virheilmoituksia, joihin en äkkiseltään löytänyt ratkaisua. Ehkä palaan siihen uudestaan, kun taidot karttuvat.
 
-Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.
-
-Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.
+Lisää aloitusteemoja [Satrter projects](https://www.11ty.dev/docs/starter/).
