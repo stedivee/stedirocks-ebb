@@ -6,7 +6,7 @@
 		<title>{{ title or metadata.title }}</title>
 		<meta name="description" content="{{ description or metadata.description }}">
 		<link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="{{ metadata.title }}">
-
+		<meta name="color-scheme" content="light dark" />
 		{#- Uncomment this if you’d like folks to know that you used Eleventy to build your site!  #}
 		{#- <meta name="generator" content="{{ eleventy.generator }}"> #}
 
@@ -24,8 +24,9 @@
 		{#- Add CSS to the bundle #}
 		<style>/* This is an arbitrary CSS string added to the bundle */</style>
 
-		{#- Add the contents of a file to the bundle #}
+		{#- Add the contents of a file to the bundle	STEDIROCKS #}
 		<style>{% include "css/index.css" %}</style>
+		<style>{% include "css/pico.pumpkin.css" %}</style>
 
 		{#- Or you can add from node_modules #}
 		{# <style>{% include "node_modules/something.css" %}</style> #}
@@ -56,7 +57,7 @@
 			</nav>
 		</header>
 
-		<main id="main">
+		<main id="main" class="container">
 			<heading-anchors>
 				{{ content | safe }}
 			</heading-anchors>
@@ -64,7 +65,9 @@
 
 		<footer>
 			<p>
-				<em>Built with <a href="https://www.11ty.dev/">{{ eleventy.generator }}</a></em>
+				<em>Built with <a href="https://www.11ty.dev/">{{ eleventy.generator }}</a> and <br><a href="https://builder.statichost.eu/sh/" target="_blank">
+  <img src="https://builder.statichost.eu/sh/status.svg" alt="statichost.eu status">
+</a></em>
 			</p>
 		</footer>
 
