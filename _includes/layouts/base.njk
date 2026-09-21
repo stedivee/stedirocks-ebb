@@ -22,10 +22,13 @@
 		#}
 
 		{#- Add CSS to the bundle #}
-		<style>/* This is an arbitrary CSS string added to the bundle */</style>
+		<style>/* This is an arbitrary CSS string added to the bundle */
+		body	{
+			max-width: 1200px;
+		}
+		</style>
 
 		{#- Add the contents of a file to the bundle	STEDIROCKS #}
-		<style>{% include "css/index.css" %}</style>
 		<style>{% include "css/pico.pumpkin.css" %}</style>
 
 		{#- Or you can add from node_modules #}
