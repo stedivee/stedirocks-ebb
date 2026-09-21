@@ -1,5 +1,5 @@
 export default {
-	title: "Stedi's Eleventy Base Blog v9",
+	title: "Stedin Eleventy Base Blog v9",
 	url: "https://stedi.rocks",
 	language: "fi",
 	description: "Kirjoittelen mitä sattuu.",
