@@ -1,9 +1,12 @@
 ---
 title: Tietoja
+description: ""
+date: 2026-09-22
+preview: ""
 draft: false
 eleventyNavigation:
-	key: Tietoja
-	order: 4
+    key: Tietoja
+    order: 4
 ---
 # Tietoja uteliaille
 
