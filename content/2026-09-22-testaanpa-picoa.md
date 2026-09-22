@@ -3,13 +3,13 @@ title: Testaanpa picoa
 description: CSS kokeiluja
 date: 2026-09-22
 preview: ""
-draft: true
+draft: false
 tags:
-    - eleventy
+  - eleventy
 categories:
-    - IT
+  - IT
 ---
-Kokeillaanpas .md sisällä hötömölöä picon kanssa.
+Kokeillaanpas .md sisällä jotain hötömölöä picon kanssa.
 
 <div class="grid">
   <div>1. divi jossa tekstiä tekstiä tekstiä tekstiä tekstiä tekstiä tekstiä tekstiä tekstiä tekstiä tekstiä tekstiä </div>
@@ -23,18 +23,19 @@ Kokeillaanpas .md sisällä hötömölöä picon kanssa.
 <section><p>section jossa p ja tekstiä tekstiä tekstiä tekstiä tekstiä tekstiä tekstiä tekstiä tekstiä tekstiä tekstiä tekstiä</p></section>
 
 <details name="example" open>
-  <summary>Accordion 1</summary>
+  <summary>HANURI 1</summary>
   <p>tilulilu</p>
 </details>
 
 <hr />
 
 <details name="example">
-  <summary>Accordion 2</summary>
+  <summary>KURTTU 2</summary>
   <ul>
     <li>heip</li>
     <li>paralla</li>
   </ul>
+  <hr>
 </details>
-
-<button>Button</button>
+<hr>
+<button>Button</button> ja värikin tulee Picon teemasta :)
