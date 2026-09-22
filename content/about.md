@@ -1,6 +1,9 @@
 ---
 title: Tietoja
 draft: false
+eleventyNavigation:
+	key: Tietoja
+	order: 4
 ---
 # Tietoja uteliaille
 
