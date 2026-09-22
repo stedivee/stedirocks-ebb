@@ -51,7 +51,16 @@ html {
 		</style>
 
 		{#- Add the contents of a file to the bundle	STEDIROCKS #}
-		<style>{% include "css/pico.orange.css" %}</style>
+		<style>{% include "css/pico.orange.css" %}
+		header nav {
+			float: right;
+		}
+		header, footer	{
+			background: #efefef;
+			padding: 30px 20px;
+		}
+		
+		</style>
 
 		{#- Or you can add from node_modules #}
 		{# <style>{% include "node_modules/something.css" %}</style> #}
