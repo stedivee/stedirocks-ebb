@@ -2,7 +2,7 @@
 title: Testaanpa picoa
 description: CSS kokeiluja
 date: 2026-09-22
-preview: ""
+preview: /public/img/Stedi.svg
 draft: false
 tags:
   - eleventy
