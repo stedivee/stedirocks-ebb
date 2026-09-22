@@ -1,8 +1,6 @@
----js
-const eleventyNavigation = {
-	key: "Tietoja",
-	order: 3
-};
+---
+title: Tietoja
+draft: false
 ---
 # Tietoja uteliaille
 
