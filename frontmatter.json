@@ -1,5 +1,6 @@
 {
   "$schema": "https://frontmatter.codes/frontmatter.schema.json",
+  "frontMatter.taxonomy.dateFormat": "YYYY-MM-DD",
   "frontMatter.taxonomy.contentTypes": [
     {
       "name": "default",

@@ -1,7 +1,7 @@
 ---
 title: Tilanne nyt
-description: Mitä on tullu ehyä
-date: 2026-09-21T19:50:11.200Z
+description: Mitä on tullut tehtyä
+date: 2026-09-22
 preview: ""
 draft: false
 tags:

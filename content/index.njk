@@ -8,8 +8,7 @@ const numberOfLatestPostsToShow = 3;
 ---
 {% set postsCount = collections.posts | length %}
 {% set latestPostsCount = postsCount | min(numberOfLatestPostsToShow) %}
-<h1>Viimeisimmät {{ latestPostsCount }} kirjoitusta.</h1>
-
+<h2>Viimeisimmät {{ latestPostsCount }} kirjoitusta</h2>
 {% set postslist = collections.posts | head(-1 * numberOfLatestPostsToShow) %}
 {% set postslistCounter = postsCount %}
 {% include "postslist.njk" %}

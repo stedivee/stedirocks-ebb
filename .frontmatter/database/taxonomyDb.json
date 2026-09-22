@@ -1,8 +1,11 @@
 {
   "taxonomy": {
-    "categories": [],
+    "categories": [
+      "Yleiset",
+      "IT"
+    ],
     "tags": [
-      " ",
+      "eleventy",
       "2",
       "a",
       "b",
