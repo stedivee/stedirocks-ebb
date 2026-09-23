@@ -118,7 +118,17 @@ export default async function(eleventyConfig) {
 	eleventyConfig.addShortcode("currentBuildDate", () => {
 		return (new Date()).toISOString();
 	});
+	
+	eleventyConfig.addFilter("suomiPaivamaara", (date) => {
+		return new Intl.DateTimeFormat("fi-FI", {
+			year: "numeric",
+			month: "long",
+			day: "numeric"
+		}).format(date);
+	});
+		// Teuvon eka filtteri, joka muuttaa päivämäärän suomeksi. Ei ole kovin hyvä, mutta toimii.
 
+		
 	// Features to make your build faster (when you need them)
 
 	// If your passthrough copy gets heavy and cumbersome, add this line
