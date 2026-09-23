@@ -57,6 +57,10 @@
     {
       "title": "public",
       "path": "[[workspace]]/public"
+    },
+    {
+      "title": "blog",
+      "path": "[[workspace]]/content/blog"
     }
   ],
   "frontMatter.git.enabled": true
