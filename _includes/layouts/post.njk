@@ -6,9 +6,9 @@ layout: layouts/base.njk
 <style>{% include "css/prism-diff.css" %}</style>
 <h1>{{ title }}</h1>
 
-{# alla ekan rivin readableDate muutettu oman filtterin mukaiseksi suomiPaivamaara #}
+
 <ul class="post-metadata">
-	<li>Julkaisupäivä: <time datetime="{{ page.date | htmlDateString }}">{{ page.date | suomiPaivamaara }}</time></li>
+	<li>Julkaisupäivä: <time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time></li>
 	{%- for tag in tags | filterTagList %}
 	{%- set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
 	<li>Aihetunnisteet: <a href="{{ tagUrl }}" class="post-tag">{{ tag }}</a>{%- if not loop.last %}, {% endif %}</li>

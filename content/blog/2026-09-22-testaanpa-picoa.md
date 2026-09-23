@@ -27,7 +27,7 @@ Kokeillaanpas .md sisällä jotain hötömölöä picon kanssa.
   <p>tilulilu</p>
 </details>
 
-<hr />
+<hr />.
 
 <details name="example">
   <summary>KURTTU 2</summary>
